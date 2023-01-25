@@ -1,0 +1,921 @@
+ *{
+    margin:0px;
+    padding: 0px;
+ }
+
+.my_site{
+   
+    /* filter:blur(9px);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0px;
+    left:0px;
+    opacity: 0.7; */
+    
+    background-image:url(bg.jpg);
+    height: 100vh;
+    background-position:100%;
+    background-size: cover;
+    filter: blur(3px);
+
+}
+.create_account{
+    /* margin:200px 0px 0px 400px; */
+    height:300px;
+    width:700px;
+    border:2px solid black;
+    box-shadow: 1px 4px 10px rgb(111, 107, 107);
+    position: absolute;
+    top:270px;
+    left:400px;
+    background-color: rgb(165, 160, 160);
+    opacity: 0.4;
+    border-radius: 15px;
+}
+.head_div{
+    text-align: center;
+    color: black;
+    position: absolute;
+    top:280px;
+    left:660px;
+} 
+
+.emailsignup{
+    padding: 10px 0px 10px 4px;
+    border-radius: 5px;
+    width: 300px;
+    border: none;
+    border-bottom: 3px solid rgb(120, 107, 107);
+    background-color: rgb(163, 153, 153);
+    margin-left:20px;
+    margin-top: 30px;
+    box-shadow: 2px 10px 8px rgb(53, 50, 50) ;
+    outline: none;
+    
+}
+.passwordsignup{
+    padding: 10px 0px 10px 4px;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 3px solid rgb(120, 107, 107);
+    width: 300px;
+    background-color: rgb(163, 153, 153);
+    margin-top: 30px;
+    margin-left:20px;
+    box-shadow: 2px 10px 8px rgb(53, 50, 50) ;
+    outline: none;
+}
+.submitsignup{
+    width: 150px;
+    padding: 8px 0px 8px 4px;
+    border: none;
+    border-bottom: 3px solid rgb(120, 107, 107);
+    border-radius: 5px;
+    background-color: rgb(163, 153, 153);
+    margin-left:260px; 
+    color: rgb(255, 255, 255);  
+    box-shadow: 2px 10px 8px rgb(53, 50, 50) ;
+    margin-top: 40px;
+    box-shadow: 2px 10px 8px rgb(53, 50, 50) ;
+}
+.submitsignup::placeholder{
+    color: rgb(255, 255, 255);
+}
+.emailsignup::placeholder{
+    color: rgb(255, 255, 255);
+}
+.passwordsignup::placeholder{
+    color: rgb(255, 255, 255);
+}
+.textin1::placeholder{
+    color: rgb(255, 255, 255);
+}
+.textin2::placeholder{
+    color: rgb(255, 255, 255);
+}
+.signupinfo{
+    position: absolute;
+    top : 320px;
+    left:420px;
+
+}
+
+.subsignup input[type=submit]:hover{
+    cursor:pointer;
+    box-shadow: 2px 10px 8px rgb(53, 50, 50) ;
+ }
+ .textin2{
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 10px 0px 10px 4px;
+    border-radius: 5px;
+    width: 300px;
+    border: none;
+    border-bottom: 3px solid rgb(120, 107, 107);
+    background-color: rgb(163, 153, 153);
+    box-shadow: 2px 10px 8px rgb(53, 50, 50) ;
+    outline: none;
+ }
+ 
+ .textin1{
+    margin-left:20px;
+    margin-top: 20px;
+    padding: 10px 0px 10px 4px;
+    border-radius: 5px;
+    width: 300px;
+    border: none;
+    border-bottom: 3px solid rgb(120, 107, 107);
+    background-color: rgb(163, 153, 153);
+    box-shadow: 2px 10px 8px rgb(53, 50, 50) ;
+    outline: none;
+ }
+ .signuptop{
+    position: absolute;
+    top:12px;
+    right:310px;
+    padding: 16px;
+ }
+ .signuptop2{
+    font-weight:600;
+    font-size: 18px;
+    letter-spacing: 2px;
+ }
+ 
+ .logintop{
+    position: absolute;
+    top:15px;
+    right:60px;
+    border: 2px solid #999bee;
+    padding: 10px;
+    background-color:#B1B2FF;
+    box-shadow: 2px 2px 3px #6668a9 ;
+    padding:10px 15px 10px 15px;
+    
+ }
+ .contacttop{
+    position: absolute;
+    top:15px;
+    right:180px;
+    border: 2px solid #999bee;
+    padding: 10px;
+    background-color:#B1B2FF;
+    box-shadow: 2px 2px 3px #6668a9 ;
+    padding:10px 15px 10px 15px;
+ }
+
+
+ .topbar{
+    background-color:#D2DAFF;
+    padding:40px;
+    position:absolute;
+    box-shadow: 2px 5px 10px #bac7ff;
+    width:94.5%;
+ }
+.sighnuplink:visited{
+    color:black
+}
+.sighnuplink:hover{
+    color:black
+}
+.sighnuplink:active{
+    color:black
+}
+.loginlink:visited{
+    color:black
+}
+.loginlink:hover{
+    color:black
+}
+.loginlink:active{
+    color:black
+}
+.contactlink:visited{
+    color:black
+}
+.contactlink:hover{
+    color:black
+}
+.contactlink:active{
+    color:black
+}
+.loginpage{
+    background-color: rgb(216, 231, 226);
+}
+.logininfo{
+    /* border:1px solid black; */
+    box-shadow: 0px 0px 19px 0px rgb(86, 201, 161);
+    height: 480px;
+    width: 450px;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 150px;
+    background-color: rgb(213, 222, 219);
+    opacity: 0.9;
+}
+.loginname{
+
+    padding: 20px 0px 20px 10px;
+    border-radius: 9px;
+    width: 380px;
+    border: none;
+    background-color: rgb(154, 209, 196);
+    margin-top: 80px;
+    margin-left: 25px;
+    outline: none;
+    box-shadow: 1px 2px 5px rgb(135, 172, 164) ;
+}
+.loginpass{
+    padding: 20px 0px 20px 10px;
+    width: 380px;
+    border-radius: 9px;
+    border: none;
+    background-color: rgb(154, 209, 196);
+    margin-top: 30px;
+    margin-left: 25px;
+    outline: none;
+    box-shadow: 1px 2px 5px rgb(135, 172, 164) ;
+}
+.signinhead{
+    position: absolute;
+    top:180px;
+    left:720px;
+    letter-spacing: 2px;
+}
+.loginsignin{
+    padding: 20px 0px 20px 10px;
+    width: 100px;
+    border: none;
+    background-color: rgb(154, 209, 196);
+    margin-top: 30px;
+    margin-left: 315px;
+    box-shadow: 1px 2px 5px rgb(135, 172, 164) ;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.loginname::placeholder{
+    letter-spacing: 2px;
+    color: aliceblue;
+}
+.loginpass::placeholder{
+    letter-spacing: 2px;
+    color: aliceblue;
+}
+.loginsignin{
+    letter-spacing: 2px;
+    color: aliceblue;
+    text-align: center;
+}
+.logincontact{
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.fontlinkinlogin:visited{
+    color: rgb(20, 20, 80);
+}
+.fontlinkinlogin:hover{
+    color: rgb(20, 20, 80);
+}
+.fontlinkinlogin:active{
+    color: rgb(20, 20, 80);
+}
+.fontwhatslogin:visited{
+    color: rgb(34, 138, 79);
+}
+.fontwhatslogin:hover{
+    color: rgb(34, 138, 79);
+}
+.fontwhatslogin:active{
+    color: rgb(34, 138, 79);
+}
+.fontinslogin:visited{
+    color: rgb(174, 28, 96);
+}
+.fontinslogin:hover{
+    color: rgb(174, 28, 96);
+}
+.fontinslogin:active{
+    color: rgb(174, 28, 96);
+}
+.loginfonts{
+
+    display: flex;
+    justify-content: space-evenly;
+}
+.sitecontact{
+    background-image: url(map.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.contactdiv{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(69, 69, 132);
+}
+.contactdetails{
+    width: 400px;
+    height:350px;
+    border-right:1px solid rgb(215, 209, 225);
+    position: absolute;
+    top: 785px;
+}
+.contacthead:hover{
+    text-decoration: underline;
+}
+.contacthead{
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    opacity: 0.7;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.call{
+    display: inline-block;
+    margin-left: 20px;
+    color: white;
+}
+.calldiv{
+    border-bottom: 1px solid white;
+    width: 320px;
+    margin-left: 20px;
+}
+.addresssite{
+    border-bottom: 1px solid white;
+    width: 320px;
+    margin-left: 20px;
+}
+address{
+    display: inline-block;
+    margin-left: 10px;
+    color: white;
+}
+.mailsite{
+    border-bottom: 1px solid white;
+    width: 320px;
+    margin-left: 20px;
+}
+.mailsitedetail{
+    letter-spacing: 20x;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    display: inline-block;
+    margin-left: 10px;
+}
+.followsocialacc{
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+}
+.followfonts{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.fontgitlogin:visited{
+    color:rgb(28, 9, 52);
+}
+.fontgitlogin:hover{
+    color:rgb(28, 9, 52);
+}
+.fontgitlogin:active{
+    color: rgb(28, 9, 52);
+}
+.discription{
+    width:1100px;
+    height: 350px;
+    position: absolute;
+    top: 785px;
+    right:0px;
+}
+.discriptiondetails{
+ text-align: center;
+ color: white;
+ opacity: 0.8;
+}
+.p1::first-letter{
+    font-size: 100px;
+}
+.p1{
+    letter-spacing: 1px;
+    font-size: 70px;
+}
+.p2{
+    margin-left: 190px;
+    font-size: 80px;
+}
+.p3{
+    margin-top: 15px;
+    margin-left: 370px;
+    font-size: 40px;
+}
+.p4{
+    margin-top: 15px;
+    margin-left: 480px;
+    font-size: 30px;
+}
+.bulb{
+    position: absolute;
+    top:80px;
+    right:40px;
+}
+.topbarpvc{
+    box-shadow: 0px 2px 6px 0px rgb(109, 166, 188) ;
+    height: 80px;
+    background-color:rgb(210, 234, 243)  ;
+}
+ .contactbutton{
+    background-color: rgb(176, 215, 230);
+    border: 2px solid rgb(163, 216, 237) ;
+    box-shadow: 2px 2px 4px rgb(109, 166, 188);
+    padding:10px 15px 10px 10px;
+    display: inline-block;
+ }
+.contactlinkpvc{
+    color: black;
+    text-decoration: none;
+   
+}
+.contactlinkpvc:visited{
+    color: black;
+}
+.contactlinkpvc:hover{
+    color: black;
+    cursor: pointer; 
+}
+.contactlinkpvc:active{
+    color: black;
+}  
+.contactlinkpvcdiv{
+    
+    margin-top: 15px;
+    display: inline-block;
+    margin-left: 1400px;
+}
+.logolinkpvcdiv{
+    display: inline-block;
+    margin-top: -70px;
+}
+.BODY{
+    margin-top:5px;
+    height:7300px;
+    background-color:rgb(232, 238, 240)  
+}
+.pvcbodycontent{
+    width: 1000px;
+    height: 7000px;
+    margin-left:280px; 
+    margin-right:360px; 
+    margin-top:80px;
+}
+.pvcbodyfoot{
+    width: 100%;
+    height: 140px;
+    /* position: absolute; 
+    bottom: 0px; */
+    background-color:rgb(20, 128, 165)  
+}
+.pvybodycontenthead{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+}
+.hr1{
+    margin-top:20px;
+    width:700px;
+    margin-left: 135px;
+}
+.hr2{
+    margin-top:30px;
+    width:700px;
+    margin-left: 135px;
+}
+.pvcpara{
+    padding:25px;
+    margin-top:30px;
+    background-color:rgb(87, 176, 206) ;
+    width:400px ;
+    margin-left: 262px;
+}
+.aboutpolicy{
+    height: 6480px;
+    width: 1000px;
+    margin-top: 50px;
+}
+.facebookfootpvc{
+   color: rgb(34, 34, 107);
+   margin-left:585px;
+}
+
+.instafootpvc{
+   color: rgb(174, 28, 96);
+   margin-left:40px;
+}
+.googleplayfootpvc{
+   color: rgb(19, 19, 75);
+   margin-left:40px;
+   
+}
+.facebookfootpvc:visited{
+    color: rgb(34, 34, 107);
+}
+.facebookfootpvc:hover{
+    color: rgb(34, 34, 107);
+}
+.facebookfootpvc:active{
+    color: rgb(34, 34, 107);
+}
+.gitfootpvc:visited{
+    color: rgb(20, 20, 80);
+}
+.gitfootpvc:hover{
+    color: rgb(20, 20, 80);
+}
+.gitfootpvc:active{
+    color: rgb(20, 20, 80);
+}
+.gitfootpvc{
+    color: rgb(20, 20, 80);
+    margin-left: 40px;
+}
+.linkedinfootpvc{
+    color: #0f135d;
+    margin-left:40px;
+ }
+.googleplayfootpvc:hover{
+    color: rgb(19, 19, 75);
+    /* color: rgb(255, 252, 252); */
+}
+.googleplayfootpvc:active{
+    color: rgb(19, 19, 75);
+    /* color:rgb(255, 252, 252); */
+}
+.googleplayfootpvc{
+    color: rgb(19, 19, 75);
+    /* color: rgb(255, 252, 252); */
+    margin-left: 40px;
+}
+.footlast{
+   margin-bottom: 0px;
+
+   height: 30px;
+   width: 30%;
+   margin-top: 20px;
+   display: flex;
+   justify-content: space-around;
+   margin-left: 550px
+}
+.footlastlink{
+    color: black;
+    text-decoration: none;
+}
+.footlastlink:visited{
+    color:black
+}
+.footlastlink:hover{
+    color: black
+}
+.footlastlink:active{
+    color: black
+}
+.mainpagebody{
+    height: 1158px;
+    background-color: #d0d6f1;
+    width: 100%;
+}
+.topbarmainsite{
+    height: 100px;
+    width: 100%;
+    background-color:#a3a5ee;
+    position: fixed;
+    top: 0px;
+}
+.topbarmainsiteelement{
+    margin-top: -90px;
+    width: 25%;
+    margin-left: 1080px;
+    display: flex;
+    justify-content: space-around;
+   
+}
+.mainsitecontact{
+    background-color: #868ae9;
+    padding: 15px 25px 15px 25px;
+    border-radius: 9px;
+    box-shadow: 2px 2px 4px#6265cc ;
+}
+.mainsitelogin{
+
+    padding: 15px 25px 15px 25px;
+    background-color: #868ae9;
+    border-radius: 9px;
+    box-shadow: 2px 2px 4px#6265cc ;
+
+}
+.mainsitecontactlink{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+   
+}
+.mainsiteloginlink{
+    
+    text-decoration: none;
+    color: black;
+}
+.mainsitesignuplink{
+    margin-top: 15px;
+    text-decoration: none;
+    color: black;
+    font-size:18px;
+    font-weight: 700;
+}
+.mainsitecontactlink:visited{
+    color: black;
+}
+.mainsitecontactlink:hover{
+    color: black;
+}
+.mainsitecontactlink:active{
+    color: black;
+}
+.mainsiteloginlink:visited{
+    color: black;
+}
+.mainsiteloginlink:hover{
+    color: black;
+}
+.mainsiteloginlink:active{
+    color: black;
+}
+.mainsitesignuplink:visited{
+    color: black;
+}
+.mainsitesignuplink:hover{
+    color: black;
+}
+.mainsitesignuplink:active{
+    color: black;
+}
+.mainsitefoot{
+    height:200px;
+    width: 100%;
+    margin-top:256px;
+    background-color: #6669c3;
+}
+.mainsitefootins{
+    /* height: 100px; */
+    width:35%;
+    margin-left: 480px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.facebookfootmainsite:visited{
+    color: rgb(34, 34, 107);
+}
+.facebookfootmainsite:hover{
+    color: rgb(34, 34, 107);
+}
+.facebookfootmainsite:active{
+    color: rgb(34, 34, 107);
+}
+.gitfootmainsite:visited{
+    color: rgb(20, 20, 80);
+}
+.gitfootmainsite:hover{
+    color: rgb(20, 20, 80);
+}
+.gitfootmainsite:active{
+    color: rgb(20, 20, 80);
+}
+.gitfootmainsite{
+    color: rgb(20, 20, 80);
+    /* margin-left: 40px; */
+}
+.linkedinfootmainsite{
+    color: #0f135d;
+    /* margin-left:40px; */
+ }
+ .instafootmainsite{
+    color: rgb(174, 28, 96);
+    /* margin-left:40px; */
+ }
+.googleplayfootmainsite:hover{
+    color: rgb(19, 19, 75);
+    /* color: rgb(255, 252, 252); */
+}
+.googleplayfootmainsite:active{
+    color: rgb(19, 19, 75);
+    /* color:rgb(255, 252, 252); */
+}
+.googleplayfootmainsite{
+    color: rgb(19, 19, 75);
+    /* color: rgb(255, 252, 252); */
+    /* margin-left: 40px; */
+}
+.mathdiv{
+    margin-top:80px;
+    width: 500px;
+    /* height: 300px; */
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    /* border: 1px solid green; */
+    /* margin-left:70px; */
+    background-color: #c6c9f5;
+    box-shadow: 2px 2px 12px 0px#6265cc ;
+}
+.dashboard{
+    margin-top:170px ;
+    letter-spacing: 2px;
+    margin-left: 70px;
+}
+.mathheading{
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 700;
+}
+/* .mathdis{
+    font-family:Arial, Helvetica, sans-serif;
+} */
+.mathlogin{
+   box-shadow:2px 2px 3px #292eb9;  ;
+   width:50px;
+   padding: 10px 20px 10px 20px;
+   background-color: #8b8ede;
+}
+.mathloginlink{
+   display:inline-block;
+   margin-top: 13px;
+   margin-left: 400px;
+   text-decoration: none;
+   color: white;
+}
+.certifieddiv{
+    margin-top:80px;
+    width: 500px;
+    /* height: 300px; */
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    /* border: 1px solid green; */
+    /* margin-left:70px; */
+    background-color: #c6c9f5;
+    box-shadow: 2px 2px 12px 0px#6265cc ;
+}
+.certifiedheading{
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 700;
+}
+/* .mathdis{
+    font-family:Arial, Helvetica, sans-serif;
+} */
+.certifiedlogin{
+   box-shadow:2px 2px 3px #292eb9;  ;
+   width:50px;
+   padding: 10px 20px 10px 20px;
+   background-color: #8b8ede;
+}
+.certifiedloginlink{
+   display:inline-block;
+   margin-top: 13px;
+   margin-left: 400px;
+   text-decoration: none;
+   color: white;
+}
+.flexsub1{
+    display: flex;
+    justify-content: space-around;
+    /* margin-top:140px */
+}
+.htmlheading{
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.cssheading{
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.jsheading{
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.html{
+    /* border: 1PX solid red; */
+    width:350px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    background-color: #c6c9f5;
+    box-shadow: 2px 2px 12px 0px#6265cc ;
+
+}
+.css{
+    /* border: 1PX solid red; */
+    width:350px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    background-color: #c6c9f5;
+    box-shadow: 2px 2px 12px 0px#6265cc ;
+}
+.js{
+    /* border: 1PX solid red; */
+    width:350px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    background-color: #c6c9f5;
+    box-shadow: 2px 2px 12px 0px#6265cc ;
+}
+.flexsub2{
+ margin-top: 110px;
+ display: flex;
+ justify-content: space-around;
+}
+.htmllogin{
+    box-shadow:2px 2px 3px #292eb9;  ;
+    width:50px;
+    padding: 10px 20px 10px 20px;
+    background-color: #8b8ede;
+ }
+ .htmlloginlink{
+    display:inline-block;
+    /* margin-top: 13px; */
+    margin-left: 260px;
+    text-decoration: none;
+    color: white;
+ }
+.csslogin{
+    box-shadow:2px 2px 3px #292eb9;  ;
+    width:50px;
+    padding: 10px 20px 10px 20px;
+    background-color: #8b8ede;
+ }
+ .cssloginlink{
+    display:inline-block;
+    /* margin-top: 13px; */
+    margin-left: 260px;
+    text-decoration: none;
+    color: white;
+ }
+.jslogin{
+    box-shadow:2px 2px 3px #292eb9;  ;
+    width:50px;
+    padding: 10px 20px 10px 20px;
+    background-color: #8b8ede;
+ }
+ .jsloginlink{
+    display:inline-block;
+    /* margin-top: 13px; */
+    margin-left: 260px;
+    text-decoration: none;
+    color: white;
+ }
+ .html:hover{
+    box-shadow: 2px 1px 8px 0px#6265cc ;
+   
+    
+ }
+ .css:hover{
+    box-shadow: 2px 1px 8px 0px#6265cc ;
+
+ }
+ .js:hover{
+
+    box-shadow: 2px 1px 8px 0px#6265cc ;
+ }
+.foottitle{
+    
+    height: 40px;
+    width: 30%;
+    /* border: 1px solid red; */
+    margin-left: 545px;
+    margin-top: 20px;
+    display: flex;
+    gap: 19px;
+}
+.footpvclink{
+    text-decoration: none;
+    color: black;
+}
+.footpvclink:visited{
+    color: black;
+}
+.footpvclink:hover{
+    color: black;
+}
+.footpvclink:active{
+    color: black;
+}
